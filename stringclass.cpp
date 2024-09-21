@@ -128,7 +128,6 @@ int main() {
     res.print();
     cout << '\n' << (str == res) << endl;
     cout << str[1] << endl;
-    cout << "It's... all?" << endl;
-    cout << "hello world";
+    cout << "hellp me";
     return 0;
 }
