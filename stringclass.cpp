@@ -4,7 +4,7 @@ using namespace std;
 class mstring{
 
 char *str;
-int length;
+int  length;
 public:
     mstring() {
         str = nullptr;
@@ -128,6 +128,6 @@ int main() {
     res.print();
     cout << '\n' << (str == res) << endl;
     cout << str[1] << endl;
-    cout << "Äà êàê äåëàòü ýòî ***** ñëèÿíèå";
+    cout << "Ã„Ã  ÃªÃ Ãª Ã¤Ã¥Ã«Ã Ã²Ã¼ Ã½Ã²Ã® ***** Ã±Ã«Ã¨Ã¿Ã­Ã¨Ã¥";
     return 0;
 }
